@@ -17,8 +17,8 @@ A modern, minimalist Pomodoro Timer built with Tkinter that tracks your daily wo
 
 1. Clone or download this repository:  
    ```bash
-   git clone https://github.com/prathamkankheria/pomodoro-timer-with-history.git
-   cd pomodoro-timer-with-history
+   git clone https://github.com/prathamkankheria/pomodoro-timer.git
+   cd pomodoro-timer
    ```
 
 2. (Optional) Create and activate a virtual environment:  
@@ -55,7 +55,7 @@ Use [PyInstaller](https://www.pyinstaller.org/) to bundle into a single executab
 
 ```bash
 pip install pyinstaller
-python -m pyinstaller --onefile --windowed pomodoro_timer_with_history.py
+python -m pyinstaller --onefile --windowed pomodoro.py
 ```
 
 - The standalone executable will appear in the `dist/` directory.  
@@ -64,7 +64,7 @@ python -m pyinstaller --onefile --windowed pomodoro_timer_with_history.py
 ## File Structure
 
 ```
-pomodoro_timer_with_history.py   # Main application script  
+pomodoro.py                     # Main application script  
 pomodoro_history.txt            # Auto-created history file  
 README.md                       # This documentation  
 requirements.txt                # (Optional) listed dependencies  
